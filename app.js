@@ -59,7 +59,7 @@ app.get('/app/', (req, res, next) => {
 /*
  * Finally we start the application.
  */
-const port = 4000;
+const port = 80; //4000;
 app.listen(port, function() {
     console.log(`listening on ${port}`);
 });
